@@ -1,0 +1,129 @@
+body{
+	background-color:#f4f4f4;
+	color: black;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1,6em;
+	margin:0;
+}
+
+.container{
+	width:100%;
+	overflow:hidden;
+}
+
+#main-header {
+	background-color:#CABBB8;
+	color:black;
+	width: 85%;
+	height: 350px;	
+	display: flex;
+	align-items: center;	
+	padding-left: 15%;
+}
+
+
+
+#navbar{
+	background-color:#C55352;
+	height: 70px;
+	display: flex;	
+	align-items: center;
+
+}
+
+#navbar ul{
+	padding:0;
+	list-style:none;
+	float: right;
+	padding-right: 130px; 
+	
+}
+
+#navbar li{
+	display:inline;
+
+}
+
+#navbar a{
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	padding-right:35px;
+	font-size: 35px
+}
+#navbar a:hover{
+	background-color: lightgrey;
+	padding-bottom: 16px;
+	padding-top: 15px
+}
+
+#headline{
+	font-size: 5em;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 150px
+
+}
+
+#showcase h1{
+	color:white;
+	font-size:50px;
+	line-height:1,6em;
+	padding-top:30px;
+}
+
+
+
+#sidebar{
+	float:right;
+	width:30%;
+	background:darkgrey;
+	color:white;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#main-footer{
+	background:	#CABBB8;
+	color:black;
+	text-align:center;
+	padding:20px;
+	margin-top: 40px;
+}
+
+.Logo {
+	margin-right: 110px;
+}
+
+h1 {
+ font-size: 2.5em; 
+}
+
+.Logo1 figure {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center
+}
+
+.Logo2 {
+	column-count: 2;
+	margin-top: 80px
+	
+}
+
+.LogoL {
+	position: relative;
+	left: 80px
+}
+
+.LogoR {
+	position: relative;
+	right: 80px
+}
+
+.Logo2 figure {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
