@@ -3,12 +3,12 @@
 #main-header {
 	background-color:#CABBB8;
 	color:black;
-	width: 100%;
-	height: 400px;	
+	max-width: 100%;
+	height: 250px;	
 	display: flex;
 	align-items: center;				
-	font-size: 70px;
-	padding-left: 13%;
+	font-size: 40px;
+	padding-left: 5%;
 	justify-content: space-between;
 	font-weight: bold;
 }
@@ -19,7 +19,7 @@
 	float: right;
 	padding-right: 10%;
 	height: auto;	
-	width: 1000px;
+	width: 400px;
 }
 /*This area defines the Position of the Header-Logo and the Padding from the right End of the Window*/
 
@@ -28,7 +28,7 @@
 
 nav {
 	background-color: #C55352;
-	height: 150px;
+	height: 30px;
 	width: 100%
 }
 /*This area onli defines the size and the color of the Navigationbar*/
@@ -38,7 +38,7 @@ nav {
 	list-style-type: none;
 	float: right;
 	margin: 0px;
-	margin-right: 250px;
+	margin-right: 150px;
 }	
 /*Here we define the position of the Text and the margin to the right end and
 close the gap between the Header and the Navbar by 0px Margin (with margin 250px)*/
@@ -54,106 +54,34 @@ close the gap between the Header and the Navbar by 0px Margin (with margin 250px
 	text-decoration: none;
 	display: block;	
 	color: white;
-	font-size: 70px;
+	font-size: 30px;
 	font-weight: bold;
-	padding: 30px;
-	padding-left: 150px;
+	padding: 15px;
+	padding-left: 100px;
 }
 /*The decoration none deletes the points of the list, block=center it, the other definition define the style*/
 
 
 #navbar a:hover {
 	background-color: lightgrey;
-	padding-bottom: 40px
+	padding-bottom: 12px
 }
 /*Hover defines the action when you go through the Navbar by changing the background of the element you are at to lightgrey*/
 
 
-/*Main Text Area*/
 
-#main-text {
-	font-size: 100px;
-	text-align: center;
-	margin-top: 100px;
-	margin-bottom: 150px;	
-	font-weight: bold
-}
-/*Text in the center of the page with adapting the size and position and the gap at the top and bottom
-(attention h1 text already contains a padding)*/
-
-
-#pics {
-	align-items: center;
-	width: 90%;
-	margin-left: 5%;
-}
-/*Here we difine the width of the pictures and the where they should be shown exactly(margin)*/
-
-
-#logo1 {
-	padding: 0%;
-	width: 100%;
-	text-align: center;
-}
-/* Places the Logo with the Phone and its surroundings*/
-
-
-#logo1 figure {
-	font-size: 60px;
-	font-weight: bold;
-	text-align: center
-}
-/*Defines how the text below the pic should look like*/
-
-
-#logo2-3 {
-	    column-count: 2;
-    text-align: center;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-/* Places the Logo with the Phone and its surroundings*/
-
-
-#logo2-3 figure {
-	font-size: 50px;
-	font-weight: bold;
-	text-align: center;
-}
-/*Defines how the text below the pic should look like*/
-
-
-.conimg1 {
-	width: 80%;
-	height: 700px;
-}
-/*Size of the phone pic*/
-
-
-.conimg {
-	width: 90%;
-	height: auto;
-}
-/*Size of the scooter and card pic*/
-
-
-/*Footer Area*/
 
 footer {
 	background-color: #CABBB7;
 	padding: 15px;
 	margin-top: 50px;
-	font-size: 40px
+	font-size: 20px
 }
 /*Defines the footer area - backgound color and the padding, the margin to the pictures above and the size of text*/
 
 
 #logofooter {
-max-width: 500px;
+max-width: 15%;
 	height: auto;
 	display: block;
 	margin-left: auto;
@@ -161,3 +89,4 @@ max-width: 500px;
 	margin-top: 50px
 }
 /*Defines the Logo in the Footer - size, position and margin */
+

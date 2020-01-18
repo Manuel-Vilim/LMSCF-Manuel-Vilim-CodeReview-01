@@ -3,11 +3,11 @@
 #main-header {
 	background-color:#CABBB8;
 	color:black;
-	width: 100%;
-	height: 400px;	
+	width: 87%;
+	height: 350px;	
 	display: flex;
 	align-items: center;				
-	font-size: 70px;
+	font-size: 50px;
 	padding-left: 13%;
 	justify-content: space-between;
 	font-weight: bold;
@@ -17,12 +17,25 @@
 
 #main-logo {
 	float: right;
-	padding-right: 10%;
+	margin-right: 10%;
 	height: auto;	
 	width: 1000px;
 }
 /*This area defines the Position of the Header-Logo and the Padding from the right End of the Window*/
 
+h3 {
+	font-size: 80px;
+	margin-left: 100px;
+	color: #C55352;
+	margin-right: 250px
+}
+
+p {
+	font-size: 30px;
+	margin-left: 250px;
+	margin-right: 250px;
+	background-color: #CABBB8	
+}
 
 /*Navigation Bar Area*/
 
@@ -72,7 +85,7 @@ close the gap between the Header and the Navbar by 0px Margin (with margin 250px
 /*Main Text Area*/
 
 #main-text {
-	font-size: 100px;
+	font-size: 150px;
 	text-align: center;
 	margin-top: 100px;
 	margin-bottom: 150px;	
@@ -82,63 +95,7 @@ close the gap between the Header and the Navbar by 0px Margin (with margin 250px
 (attention h1 text already contains a padding)*/
 
 
-#pics {
-	align-items: center;
-	width: 90%;
-	margin-left: 5%;
-}
-/*Here we difine the width of the pictures and the where they should be shown exactly(margin)*/
 
-
-#logo1 {
-	padding: 0%;
-	width: 100%;
-	text-align: center;
-}
-/* Places the Logo with the Phone and its surroundings*/
-
-
-#logo1 figure {
-	font-size: 60px;
-	font-weight: bold;
-	text-align: center
-}
-/*Defines how the text below the pic should look like*/
-
-
-#logo2-3 {
-	    column-count: 2;
-    text-align: center;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-/* Places the Logo with the Phone and its surroundings*/
-
-
-#logo2-3 figure {
-	font-size: 50px;
-	font-weight: bold;
-	text-align: center;
-}
-/*Defines how the text below the pic should look like*/
-
-
-.conimg1 {
-	width: 80%;
-	height: 700px;
-}
-/*Size of the phone pic*/
-
-
-.conimg {
-	width: 90%;
-	height: auto;
-}
-/*Size of the scooter and card pic*/
 
 
 /*Footer Area*/
@@ -146,7 +103,7 @@ close the gap between the Header and the Navbar by 0px Margin (with margin 250px
 footer {
 	background-color: #CABBB7;
 	padding: 15px;
-	margin-top: 50px;
+	margin-top: 200px;
 	font-size: 40px
 }
 /*Defines the footer area - backgound color and the padding, the margin to the pictures above and the size of text*/

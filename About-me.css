@@ -81,65 +81,16 @@ close the gap between the Header and the Navbar by 0px Margin (with margin 250px
 /*Text in the center of the page with adapting the size and position and the gap at the top and bottom
 (attention h1 text already contains a padding)*/
 
-
-#pics {
-	align-items: center;
-	width: 90%;
-	margin-left: 5%;
-}
-/*Here we difine the width of the pictures and the where they should be shown exactly(margin)*/
-
-
-#logo1 {
-	padding: 0%;
-	width: 100%;
+#Text {
+	text-transform: capitalize;
+	font-size: 40px;
 	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 150px;
+	margin-left: 250px;
+	margin-right: 250px	
 }
-/* Places the Logo with the Phone and its surroundings*/
-
-
-#logo1 figure {
-	font-size: 60px;
-	font-weight: bold;
-	text-align: center
-}
-/*Defines how the text below the pic should look like*/
-
-
-#logo2-3 {
-	    column-count: 2;
-    text-align: center;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-/* Places the Logo with the Phone and its surroundings*/
-
-
-#logo2-3 figure {
-	font-size: 50px;
-	font-weight: bold;
-	text-align: center;
-}
-/*Defines how the text below the pic should look like*/
-
-
-.conimg1 {
-	width: 80%;
-	height: 700px;
-}
-/*Size of the phone pic*/
-
-
-.conimg {
-	width: 90%;
-	height: auto;
-}
-/*Size of the scooter and card pic*/
-
+/*Text style and size*/
 
 /*Footer Area*/
 
@@ -161,3 +112,4 @@ max-width: 500px;
 	margin-top: 50px
 }
 /*Defines the Logo in the Footer - size, position and margin */
+
