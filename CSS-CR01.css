@@ -1,129 +1,145 @@
-body{
-	background-color:#f4f4f4;
-	color: black;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:16px;
-	line-height:1,6em;
-	margin:0;
-}
-
-.container{
-	width:100%;
-	overflow:hidden;
-}
+/*Header Area*/
 
 #main-header {
 	background-color:#CABBB8;
 	color:black;
-	width: 85%;
-	height: 350px;	
+	max-width: 100%;
+	height: 400px;	
 	display: flex;
-	align-items: center;	
-	padding-left: 15%;
+	align-items: center;				
+	font-size: 70px;
+	padding-left: 13%;
+	justify-content: space-between;
+	font-weight: bold;
 }
+/*This area defines the background color and its width and height as well as the positon of the text and its style(size/bodl)*/
 
-
-
-#navbar{
-	background-color:#C55352;
-	height: 70px;
-	display: flex;	
-	align-items: center;
-
-}
-
-#navbar ul{
-	padding:0;
-	list-style:none;
+#main-logo {
 	float: right;
-	padding-right: 130px; 
-	
+	padding-right: 10%;
+	height: auto;	
+	width: 1000px;
 }
+/*This area defines the Position of the Header-Logo and the Padding from the right End of the Window*/
 
-#navbar li{
-	display:inline;
+/*Navigation Bar Area*/
 
+nav {
+	background-color: #C55352;
+	height: 150px;
+	width: 100%
 }
+/*This area onli defines the size and the color of the Navigationbar*/
 
-#navbar a{
-	color:#fff;
-	text-decoration:none;
-	font-size:18px;
-	padding-right:35px;
-	font-size: 35px
+#navbar {
+	list-style-type: none;
+	float: right;
+	margin: 0px;
+	margin-right: 250px;
+}	
+/*Here we define the position of the Text and the margin to the right end and
+close the gap between the Header and the Navbar by 0px Margin (with margin 250px)*/
+
+#navbar li {
+	float: right;
 }
-#navbar a:hover{
+/*Here we actually more the list elements to the positon they should be*/
+
+#navbar li a {
+	text-decoration: none;
+	display: block;	
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	padding: 30px;
+	padding-left: 150px;
+}
+/*The decoration none deletes the points of the list, block=center it, the other definition define the style*/
+
+#navbar a:hover {
 	background-color: lightgrey;
-	padding-bottom: 16px;
-	padding-top: 15px
+	padding-bottom: 40px
 }
+/*Hover defines the action when you go through the Navbar by changing the background of the element you are at to lightgrey*/
 
-#headline{
-	font-size: 5em;
+#main-text {
+	font-size: 100px;
 	text-align: center;
 	margin-top: 100px;
-	margin-bottom: 150px
+	margin-bottom: 150px;	
+	font-weight: bold
+}
+/*Text in the center of the page with adapting the size and position and the gap at the top and bottom
+(attention h1 text already contains a padding)*/
 
+#pics {
+	align-items: center;
+	width: 90%;
+	margin-left: 5%;
 }
 
-#showcase h1{
-	color:white;
-	font-size:50px;
-	line-height:1,6em;
-	padding-top:30px;
+
+
+#logo1 {
+	padding: 0%;
+	width: 100%;
+	text-align: center;
 }
 
 
 
-#sidebar{
-	float:right;
-	width:30%;
-	background:darkgrey;
-	color:white;
-	padding:0 30px;
-	box-sizing: border-box;
-}
-
-#main-footer{
-	background:	#CABBB8;
-	color:black;
-	text-align:center;
-	padding:20px;
-	margin-top: 40px;
-}
-
-.Logo {
-	margin-right: 110px;
-}
-
-h1 {
- font-size: 2.5em; 
-}
-
-.Logo1 figure {
-	font-size: 30px;
+#logo1 figure {
+	font-size: 60px;
 	font-weight: bold;
 	text-align: center
 }
 
-.Logo2 {
-	column-count: 2;
-	margin-top: 80px
+#logo2-3 {
+	    column-count: 2;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+
+
+}
+
+
+#logo2-3 figure {
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
 	
 }
 
-.LogoL {
-	position: relative;
-	left: 80px
+.conimg1 {
+	width: 80%;
+	height: 700px;
 }
 
-.LogoR {
-	position: relative;
-	right: 80px
+
+
+.conimg {
+	width: 770px;
+	height: auto;
 }
 
-.Logo2 figure {
-	font-size: 30px;
-	font-weight: bold;
-	text-align: center;
+footer {
+	background-color: #CABBB7;
+	padding: 15px;
+	margin-top: 50px;
+	font-size: 40px
+}
+
+#logofooter {
+max-width: 15%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px
+
 }
