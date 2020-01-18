@@ -23,19 +23,6 @@
 }
 /*This area defines the Position of the Header-Logo and the Padding from the right End of the Window*/
 
-h3 {
-	font-size: 80px;
-	margin-left: 100px;
-	color: #C55352;
-	margin-right: 250px
-}
-
-p {
-	font-size: 30px;
-	margin-left: 250px;
-	margin-right: 250px;
-	background-color: #CABBB8	
-}
 
 /*Navigation Bar Area*/
 
@@ -44,7 +31,7 @@ nav {
 	height: 150px;
 	width: 100%
 }
-/*This area onli defines the size and the color of the Navigationbar*/
+/*This area only defines the size and the color of the Navigationbar*/
 
 
 #navbar {
@@ -95,7 +82,22 @@ close the gap between the Header and the Navbar by 0px Margin (with margin 250px
 (attention h1 text already contains a padding)*/
 
 
+h3 {
+	font-size: 80px;
+	margin-left: 100px;
+	color: #C55352;
+	margin-right: 250px
+}
+/*defines the text of H3*/
 
+
+p {
+	font-size: 30px;
+	margin-left: 250px;
+	margin-right: 250px;
+	background-color: #CABBB8	
+}
+/*defines the paragraph*/
 
 
 /*Footer Area*/
